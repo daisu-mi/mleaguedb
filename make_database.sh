@@ -2,7 +2,7 @@
 #
 # ディレクトリの移動
 #
-cd /usr/home/daisuke/ml2
+cd /anywhere/mleaguedb
 #
 # プレイヤー名・チーム名テーブルの作成
 #
