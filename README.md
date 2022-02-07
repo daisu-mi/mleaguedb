@@ -12,3 +12,7 @@
 * `perl data_parse.pl < scores.html | perl data_name2int.pl > scores.csv`
 ## スコアテーブルの作成
 * `sqlite3 mleague.sqlite3 ".read scores.sql"`
+## 以上がこのコードの内容。
+## 例として
+* `perl taisen.pl` 
+* などで、対戦結果の集計などができる。
