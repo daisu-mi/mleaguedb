@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# ディレクトリの移動
+# ディレクトリの設定（適宜変更してください）
 #
-cd /anywhere/mleaguedb
+#cd /anywhere/mleaguedb
 #
 # プレイヤー名・チーム名テーブルの作成
 #
