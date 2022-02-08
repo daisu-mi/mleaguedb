@@ -7,8 +7,10 @@
 ## オフィシャルサイトからのデータ取得
 * `wget -O scores.html "https://m-league.jp/games/"`
 ## スコアの読み取り
+* `python3 data_parse.py < scores.html`
 * `perl data_parse.pl < scores.html`
 ## スコアを読み取っての整形
+* `python3 data_parse.py < scores.html | perl data_name2int.pl > scores.csv`
 * `perl data_parse.pl < scores.html | perl data_name2int.pl > scores.csv`
 ## スコアテーブルの作成
 * `sqlite3 mleague.sqlite3 ".read scores.sql"`
