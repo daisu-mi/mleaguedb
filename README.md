@@ -1,7 +1,7 @@
 # mleaguedb
 * Mリーグの公式サイト https://m-league.jp/games からデータを読み取って、対戦成績用のデータベースを作るやつ
-** データベースを作るまでが目的なので、それ以降はご自分でどうぞ
-** 簡単な動かし方は make_database.sh をご参照ください。(最初のディレクトリの設定を適宜変更してください）
+* データベースを作るまでが目的なので、それ以降はご自分でどうぞ
+* 簡単な動かし方は make_database.sh をご参照ください。(最初のディレクトリの設定を適宜変更してください）
 ## プレイヤー名・チーム名テーブルの作成
 * `sqlite3 mleague.sqlite3 ".read players.sql"`
 * `sqlite3 mleague.sqlite3 ".read teams.sql"`
