@@ -17,7 +17,8 @@ wget -O scores.html "https://m-league.jp/games/"
 #
 # スコアのパース
 #
-perl data_parse.pl < scores.html | perl data_name2int.pl > scores.csv
+python3 data_parse.py < scores.html | python3 data_name2int.py > scores.csv
+#perl data_parse.pl < scores.html | perl data_name2int.pl > scores.csv
 
 #
 # スコアテーブルの作成
