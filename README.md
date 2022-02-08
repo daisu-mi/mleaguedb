@@ -11,7 +11,7 @@
 * (または)
 * `perl data_parse.pl < scores.html`
 ## スコアを読み取っての整形
-* `python3 data_parse.py < scores.html | perl data_name2int.pl > scores.csv`
+* `python3 data_parse.py < scores.html | python3 data_name2int.py > scores.csv`
 * (または)
 * `perl data_parse.pl < scores.html | perl data_name2int.pl > scores.csv`
 ## スコアテーブルの作成
